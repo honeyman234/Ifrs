@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAS & IFRS Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h2>IAS & IFRS Knowledge Test</h2>
+        <div id="question-container">
+            <p id="question">Question text will appear here</p>
+            <div id="answers">
+                <button class="answer-btn" onclick="checkAnswer('A')">Answer A</button>
+                <button class="answer-btn" onclick="checkAnswer('B')">Answer B</button>
+                <button class="answer-btn" onclick="checkAnswer('C')">Answer C</button>
+                <button class="answer-btn" onclick="checkAnswer('D')">Answer D</button>
+            </div>
+        </div>
+        <div id="feedback"></div>
+        <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+    </div>
+    <script src="ifrs.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>
